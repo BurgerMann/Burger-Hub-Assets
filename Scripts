@@ -1,0 +1,1059 @@
+local games = 48
+
+local function LoadGameScripts(Tab)
+Tab:CreateSection("Blade Ball")
+
+Tab:CreateButton({
+   Name = "Plutonium lua",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Test/refs/heads/main/CurrentBB-obfuscated.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "FFJ Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+    end,
+ })
+
+Tab:CreateSection("Arsenal")
+
+Tab:CreateButton({
+   Name = "Thunder Client (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/andrewdarkyyofficial/thunderclient/main/main.lua'))();
+   end,
+})
+
+Tab:CreateButton({
+   Name = "CHEATER.FUN",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/14xXHZQW"))()
+   end,
+})
+ 
+Tab:CreateSection("Doors")
+ 
+Tab:CreateButton({
+   Name = "MSPaint (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Sensation",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Neuron X",
+   Callback = function()
+    loadstring(game:HttpGet("https://you.whimper.xyz/neuron"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "FFJ Hub (Has a Key Systen)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+   end,
+})
+ 
+Tab:CreateSection("Funky Friday")
+ 
+Tab:CreateButton({
+   Name = "Uni Hub",
+   Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/dcyuEgyK'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Funky Friday Mobile",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Plutonium lua",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsTheStorage/Lolz/main/V3.6.5/Funky%20Friday-obfuscated.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "NullFire",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
+   end,
+})
+ 
+Tab:CreateSection("Slap Battles")
+ 
+Tab:CreateButton({
+   Name = "Forge Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+   end,
+})
+ 
+Tab:CreateButton({
+   Name = "Kykyryz0 Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Slap-Battles-KykyryzoB-Hub-SB-9008"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Slap God",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/slap-god/main/script"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Ultimate Badge Hub",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/UltimateBadgeHub/main/main.lua'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Minos Prime",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Crossattic/SBS/refs/heads/main/Minos%20Prime%20v1%20BETA"))()
+   end,
+})
+ 
+Tab:CreateSection("Blox Fruits")
+ 
+Tab:CreateButton({
+   Name = "RedZ Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+   end,
+})
+ 
+Tab:CreateButton({
+   Name = "W-azure",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AzureHub-15617"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "HoHo Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/BloxFruitFreeV3.lua'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Neuron X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Neuron%20X"))()
+   end,
+})
+
+Tab:CreateSection("PETS GO")
+ 
+Tab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "6FootScripts",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SlamminPig/6FootScripts/refs/heads/main/Scripts/PetsGo.lua'))();
+   end,
+})
+
+Tab:CreateSection("Prison Life")
+ 
+Tab:CreateButton({
+   Name = "Prizz Life",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "PrisonD0llan.lua",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/G0bbyD0llan/Ez-hub/main/PrisonD0llan.lua"))()
+   end,
+})
+
+Tab:CreateSection("Fisch")
+ 
+Tab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Forge Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Naoki Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://naokihub.vercel.app",true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Atherhub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Space Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/venoxcc/universalscripts/refs/heads/main/fisch",true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "SolixHub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Kiciahook (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "MSPaint (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+   end,
+})
+
+Tab:CreateSection("Break In")
+ 
+Tab:CreateButton({
+   Name = "HoHo Hub",
+   Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "X Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/XHub/main/HubLoader.lua", true))()
+   end,
+})
+
+Tab:CreateSection("Break In 2")
+ 
+Tab:CreateButton({
+   Name = "Breaking Blitz",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Harlen Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/harlenscripts/HarlenHub/main/HarlenScripts"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Starry",
+   Callback = function()
+    getgenv().ignoreGameCheck = false;
+    loadstring(game:HttpGet("https://luau.tech/build"))()
+   end,
+})
+
+Tab:CreateSection("Evade")
+
+Tab:CreateButton({
+   Name = "King Hub (Key will be copied to your clipboard)",
+   Callback = function()
+    setclipboard("KINGKEYar6sD4TxdwAygGFmMeXR3HpVvJWnf7cjYL58btNuqUzCPSZBKh")
+    Rayfield:Notify({
+        Title = "Key Copied!",
+        Content = "Key has successfully been copied to your clipboard",
+        Duration = 5,
+        Image = "clipboard",
+    })
+    pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Unknown Hub",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Evade'))()
+   end,
+})
+
+Tab:CreateSection("Banana Eats")
+ 
+Tab:CreateButton({
+   Name = "OP GUI",
+   Callback = function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/NovaVanity/131e258977e50e1ec0184c72818b8bfd/raw", true))()
+   end,
+})
+
+Tab:CreateSection("Legends Of Speed")
+ 
+Tab:CreateButton({
+   Name = "StupidProAArsenal",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/Legenos%20of%20speedos'))()
+   end,
+})
+Tab:CreateButton({
+   Name = "Waza80",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Waza80/scripts-new/main/LegendsOfSpeed.lua"))()
+   end,
+})
+
+Tab:CreateSection("Ninja Legends")
+ 
+Tab:CreateButton({
+   Name = "Zepsyy",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zepsyy2/asd/main/Ninja%20Legends.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Proxima Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua", true))()
+   end,
+})
+
+Tab:CreateSection("Muscle Legends")
+ 
+Tab:CreateButton({
+   Name = "Nadir3709",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Key-System--/main/KeySystemm"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "KTM HUB (Key is KTMONTOP)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zapstreams123/Key-System/refs/heads/main/Free",true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+Tab:CreateSection("Build A Boat For Treasure")
+ 
+Tab:CreateButton({
+   Name = "Xhan-Ware",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/blxtok/Xhan-Ware/main/loader.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "NovBoat (Key is N-314159)",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Build-A-Boat-For-Treasure-NovBot-Revmp-17896"))()
+   end,
+})
+
+Tab:CreateSection("BedWars")
+ 
+Tab:CreateButton({
+   Name = "VAPE V4",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Aurora",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/cocotv666/Aurora/refs/heads/main/Aurora_Loader'))()
+   end,
+})
+
+Tab:CreateSection("Pressure")
+ 
+Tab:CreateButton({
+   Name = "NullFire",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "TTJY Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://you.whimper.xyz/neuron"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "FFJ Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "MSPaint (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+   end,
+})
+
+Tab:CreateSection("Brookhaven RP")
+ 
+Tab:CreateButton({
+   Name = "Astra Hub (Key is Astradevkey)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Deter-code/Astra/refs/heads/main/Protected_8410692919985378.txt"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Rochips Universal",
+   Callback = function()
+    if "you wanna use rochips universal" then
+	    local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
+	    local im,lonely,z_c=task.wait,game,loadstring
+	    z_c(lonely:HttpGet(z_z..""..z_x))()
+	    return ("This will load in about 2 - 30 seconds" or "according to your device and executor")
+    end
+   end,
+})
+
+Tab:CreateSection("Pet Simulator 99")
+ 
+Tab:CreateButton({
+   Name = "Reaper Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://reaperscripts.com/loader.lua"))()
+   end,
+})
+
+Tab:CreateSection("Murder Mystery 2")
+ 
+Tab:CreateButton({
+   Name = "Atherhub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "YARHM",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Eclipse Hub",
+   Callback = function()
+    getgenv().mainKey = "nil";
+
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "vertex",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+   end,
+})
+
+Tab:CreateSection("Basically FNF")
+ 
+Tab:CreateButton({
+   Name = "AutoPlayer Lite",
+   Callback = function()
+    loadstring(game:HttpGet("https://scripts.waza80.com/script/BasicallyFNF"))()
+   end,
+})
+
+Tab:CreateSection("3008")
+ 
+Tab:CreateButton({
+   Name = "Neuron X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Neuron%20X"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "MSPaint (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+   end,
+})
+
+Tab:CreateSection("The Strongest Battlegrounds")
+ 
+Tab:CreateButton({
+   Name = "Forge Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+   end,
+})
+
+Tab:CreateSection("Natural Disaster Survival")
+ 
+Tab:CreateButton({
+   Name = "Zeerox Hub",
+   Callback = function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Plutonium lua",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsTheStorage/Storage-1/main/NaturalDisastersFixed.txt", true))()
+   end,
+})
+
+Tab:CreateSection("Fling Things and People")
+ 
+Tab:CreateButton({
+   Name = "BlitZ (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
+   end,
+})
+
+Tab:CreateSection("untitled tag game")
+ 
+Tab:CreateButton({
+   Name = "Rinns Hub (Detected | Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code")()
+   end,
+})
+
+Tab:CreateSection("Dragon Ball Rage")
+ 
+Tab:CreateButton({
+   Name = "pa1n Scripts",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xpa1n/Scripts/main/DBR.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Imp Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua"))()
+   end,
+})
+
+Tab:CreateSection("Rivals")
+ 
+Tab:CreateButton({
+   Name = "Ronix",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/666dbc0571c238fbd3203da720d06060.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Tbao Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
+   end,
+ })
+
+Tab:CreateSection("Work at a Pizza Place")
+ 
+Tab:CreateButton({
+   Name = "LDS Hub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/49f02b0d8c1f60207c84ae76e12abc1e.lua'))()
+   end,
+})
+
+Tab:CreateSection("Cheese Escape")
+ 
+Tab:CreateButton({
+   Name = "pepper.lol",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/yqc0mVEb"))()
+   end,
+})
+
+Tab:CreateSection("Tsunami Game")
+ 
+Tab:CreateButton({
+   Name = "Vadrifts",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vqmpjayZ/More-Scripts/refs/heads/main/Tsunami_game.lua"))()
+   end,
+})
+
+Tab:CreateSection("Tower of Hell")
+ 
+Tab:CreateButton({
+   Name = "Starry",
+   Callback = function()
+    loadstring(game:HttpGet("https://luau.tech/build"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Tower Of Hell Gui",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/sc0ttferren/robloxscripts/main/toh/sc0tt.lua'))()
+   end,
+})
+
+Tab:CreateSection("Dandy's World")
+ 
+Tab:CreateButton({
+   Name = "G0bbyD0llan",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/QQt4pVtu"))()
+   end,
+})
+
+Tab:CreateSection("Jailbreak")
+ 
+Tab:CreateButton({
+   Name = "Project Auto",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7540ba23dbc2a9228591964a91244237.lua"))()
+   end,
+})
+
+Tab:CreateSection("Bee Swarm Simulator")
+ 
+Tab:CreateButton({
+   Name = "Verbal Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VerbalHubz/Verbal-Hub/refs/heads/main/Bee%20Swarm%20Sim.Lua",true))()
+   end,
+})
+
+Tab:CreateSection("Shrimp Game")
+ 
+Tab:CreateButton({
+   Name = "MSPaint (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/002c19202c9946e6047b0c6e0ad51f84.lua"))()
+   end,
+})
+
+Tab:CreateSection("LUCKY BLOCKS Battlegrounds")
+ 
+Tab:CreateButton({
+   Name = "Enjoy",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/9ur98wh8fjkerbngo12ikontgg/fortnite/main/locky%20blocks12nyhubf87yh189j98ihuygrweyugf12ou8r"))()
+   end,
+})
+
+Tab:CreateSection("Flee the Facility")
+ 
+Tab:CreateButton({
+   Name = "YARHM",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Antora",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/K9ntra/Antora/main/abc.lua'))()
+   end,
+})
+
+Tab:CreateSection("Saber Simulator")
+ 
+Tab:CreateButton({
+   Name = "Extreme Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/extremehub/main/loader.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Chaos Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xChaoticVoid/Chaos-Misc-Scripts/main/Saber%20Simulator.lua"))()
+   end,
+})
+
+Tab:CreateSection("Spelling Bee")
+
+Tab:CreateButton({
+   Name = "Preppy Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PreppyHub/PreppyHub/refs/heads/main/PreppyHub"))()
+   end,
+})
+
+Tab:CreateSection("Math Murder")
+
+Tab:CreateButton({
+   Name = "Preppy Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PreppyHub/PreppyHub/refs/heads/main/PreppyHub"))()
+   end,
+})
+
+Tab:CreateSection("Bubble Gum Simulator INFINITY")
+
+Tab:CreateButton({
+   Name = "Idiot Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IdiotHub/Scripts/refs/heads/main/BGSI/main.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Atherhub (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+Tab:CreateSection("Grow a Garden")
+
+Tab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+Tab:CreateSection("Dead Rails")
+
+Tab:CreateButton({
+   Name = "Kiciahook (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "SolixHub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))() 
+   end,
+})
+
+Tab:CreateSection("Blue Lock: Rivals")
+
+Tab:CreateButton({
+   Name = "SOULS HUB (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/SPQT6v5J"))()
+   end,
+})
+
+Tab:CreateSection("Memory Murder")
+
+Tab:CreateButton({
+   Name = "Loothy's Memory Murder Memorizer",
+   Callback = function()
+    loadstring(game:HttpGet("https://lhub-script.xyz/memorymurder"))()
+   end,
+})
+end
+
+local packages = 35
+
+local function LoadPackages(Tab)
+Tab:CreateButton({
+   Name = "ScriptBlox Searcher",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Debuggers",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Infinite Yield Reborn",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Infinite%20Yield%20Reborn"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Open Aimbot",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/Open-Aimbot/master/source.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Auto Piano (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/Pqoeirnfjw/main/AP3-5.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Rochips Universal",
+   Callback = function()
+    if "you wanna use rochips universal" then
+	    local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
+	    local im,lonely,z_c=task.wait,game,loadstring
+	    z_c(lonely:HttpGet(z_z..""..z_x))()
+	    return ("This will load in about 2 - 30 seconds" or "according to your device and executor")
+    end
+   end,
+})
+
+Tab:CreateButton({
+   Name = "LALOL Hub (Backdoor Scanner)",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "QuizBot",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Damian-11/quizbot/master/quizbot.luau"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "AI Chatbot (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Guerric9018/chatbothub/main/ChatbotHub.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Sirius",
+   Callback = function()
+    loadstring(game:HttpGet('https://sirius.menu/script'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Backdoor.exe (Backdoor Scanner)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Backdoor.exe"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Anthony's Anti Chat Logger",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Dex Explorer",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "MoreUNC (Adds more UNC)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/MoreUNC"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Edge's Audio Logger",
+   Callback = function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/infyiff/backup/main/audiologger.lua'),true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "UniversalChat",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/UniversalChat"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Unnamed ESP",
+   Callback = function()
+    pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+   end,
+})
+
+Tab:CreateButton({
+   Name = "FE Trolling GUI",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Chat Draw",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Chat%20Draw"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Pshade Ultimate",
+   Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua'))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Jerk Off Tool (R6)",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+   end,
+})
+
+Tab:CreateButton({
+   Name = "fronthook",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iceswallowpis/fronthook-rblx/refs/heads/main/fronthook%20v2%20(1).lua",true))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "ControlBot (Must have Multiple Instance)",
+   Callback = function()
+    _G.prefix = "."
+
+    _G.invitelink = "MeQtKTRafK"
+    _G.logmessages = true
+    _G.webhook = ""
+
+    _G.enablekill = true
+
+    _G.showblockui = false
+    _G.stoprendering = false
+
+    _G.tips = true
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/rZT2YYWd"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Teleport Tool",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Teleport%20Tool"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Simple Spy",
+   Callback = function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Http Spy",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Http%20Spy"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Energize GUI",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/Energize%20GUI"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "RoTotal",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BurgerMann/Random-Scripts/refs/heads/main/RoTotal"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Super Ring Modified",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chesslovers69/Super-ring-modified-no-key/refs/heads/main/Super_ring_modifed_reupload.txt"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Air Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Anti Void",
+   Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-Void-Script-18124"))()
+   end,
+})
+end
+
+return {
+games = games,
+LoadGameScripts = LoadGameScripts,
+packages = packages,
+LoadPackages = LoadPackages
+}

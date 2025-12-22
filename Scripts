@@ -1049,6 +1049,13 @@ Tab:CreateButton({
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-Void-Script-18124"))()
    end,
 })
+
+Tab:CreateButton({
+   Name = "Product Faker",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastefy.app/yVlxzwk8/raw"))()
+   end,
+})
 end
 
 return {

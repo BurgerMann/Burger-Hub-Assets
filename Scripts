@@ -75,7 +75,7 @@ Tab:CreateButton({
 Tab:CreateButton({
    Name = "Funky Friday Mobile",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skedzz/ScriptHub/main/Loader"))()
    end,
 })
 

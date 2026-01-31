@@ -844,9 +844,9 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-   Name = "Auto Piano (Has a Key System)",
+   Name = "Auto Piano (Key System Removed)",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/Pqoeirnfjw/main/AP3-5.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wownskdo/Simple-Key-UI/refs/heads/main/Choose%20Script"))()
    end,
 })
 

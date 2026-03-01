@@ -798,7 +798,7 @@ Tab:CreateButton({
 })
 end
 
-local packages = 36
+local packages = 37
 
 local function LoadPackages(Tab)
 Tab:CreateButton({
@@ -1054,6 +1054,24 @@ Tab:CreateButton({
    Name = "Product Faker",
    Callback = function()
     loadstring(game:HttpGet("https://pastefy.app/yVlxzwk8/raw"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "FE SCP-096 (R6 ONLY!)",
+   Callback = function()
+    local humanoid = (game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()) and game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+
+	if humanoid.RigType == Enum.HumanoidRigType.R15 then
+	    warn("R15 is not supported")
+	    game.StarterGui:SetCore("SendNotification", {
+	        Title = "Rig Not Supported";
+	        Text = "R15 is not supported";
+	        Duration = 5;
+	    })
+	else
+	    loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
+	end
    end,
 })
 end

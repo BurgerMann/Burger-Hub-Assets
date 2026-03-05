@@ -135,7 +135,7 @@ Tab:CreateSection("Blox Fruits")
 Tab:CreateButton({
    Name = "RedZ Hub",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
    end,
 })
  

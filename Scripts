@@ -587,18 +587,25 @@ Tab:CreateButton({
 Tab:CreateSection("Rivals")
  
 Tab:CreateButton({
-   Name = "Ronix",
+   Name = "KiciaHook (Has a Key System)",
    Callback = function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/666dbc0571c238fbd3203da720d06060.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.luau"))()
    end,
 })
 
 Tab:CreateButton({
-   Name = "Tbao Hub",
+   Name = "Solix Hub (Has a Key System)",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
    end,
- })
+})
+
+Tab:CreateButton({
+   Name = "Z3us (Has a Key System)",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/blackowl1231/Z3US/refs/heads/main/main.lua"))()
+   end,
+})
 
 Tab:CreateSection("Work at a Pizza Place")
  
